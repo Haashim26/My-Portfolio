@@ -347,3 +347,110 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Experience Section */
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-details h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.experience-details p {
+  margin: 0.3rem 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.certificate-link {
+  margin-top: 1rem;
+}
+
+.certificate-link a {
+  display: inline-block;
+  font-weight: 500;
+  color: #444;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.certificate-link a:hover {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+
+.icon.arrow {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  width: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  opacity: 0.8;
+}
+
+.icon.arrow:hover {
+  transform: translateY(5px);
+  opacity: 1;
+}
+
+/* Fix arrow position */
+#skills {
+  position: relative;
+}
+
+.icon.arrow {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  width: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  opacity: 0.8;
+}
+
+.icon.arrow:hover {
+  transform: translateY(5px);
+  opacity: 1;
+}
